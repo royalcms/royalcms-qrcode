@@ -26,6 +26,14 @@
     "extra": {
         "branch-alias": {
             "dev-master": "5.0-dev"
+        },
+        "royalcms": {
+            "providers": [
+                "Royalcms\\Component\\QrCode\\QrCodeServiceProvider"
+            ],
+            "aliases": {
+                "RC_QrCode": "Royalcms\\Component\\QrCode\\Facades\\QrCode"
+            }
         }
     },
     "minimum-stability": "dev"
